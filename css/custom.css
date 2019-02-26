@@ -222,3 +222,8 @@ a:hover {
 
 }
 
+.jumbotron {
+	background-color: white;
+	margin-bottom: 0px;
+	text-align: center;
+}
