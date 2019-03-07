@@ -35,7 +35,7 @@ body {
 
 #type {
 	font-family: 'playfair-display';
-	font-weight: 500;
+	font-weight: 100;
 	font-size: 2.5em;
 	display: inline-block;
 }
@@ -86,7 +86,7 @@ body {
    -webkit-transition: opacity .5s ease-in-out;
 }
 .card a:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .col-centered{
@@ -156,7 +156,9 @@ a:hover {
   position: relative;
 }
 
-
+#hidden {
+	/*visibility: hidden;*/
+}
 .overlay-home {
   position: absolute;
   top: 0;
@@ -167,7 +169,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #F0E0E0;
+  background-color: white;
 }
 
 .card-home:hover .overlay-home {
@@ -226,4 +228,13 @@ a:hover {
 	background-color: white;
 	margin-bottom: 0px;
 	text-align: center;
+}
+
+.alignleft {
+	float: left;
+	font-size: 0.8em;
+	color: grey;
+}
+.alignright {
+	float: right;
 }
