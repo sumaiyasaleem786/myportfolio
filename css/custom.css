@@ -99,15 +99,15 @@ body {
 
 .button-edit {
 	background-color: transparent;
-	border:  solid thin #A90205;
+	border:  solid thin #008ecc;
 	border-radius: 0;
-	color: #A90205;
+	color: #008ecc;
 	font-family: "playfair-display";
 	font-size: 1em
 }
 
 .button-edit:hover {
-	background-color: #A90205;
+	background-color: #008ecc;
 	color: whitesmoke;
 	border: solid thin whitesmoke;
 }
@@ -136,11 +136,11 @@ body {
 }
 
 a {
-	color: red;
+	color: #008ecc;
 }
 
 a:hover {
-	color: red;
+	color: #008ecc;
 }
 
 .zoom-image:hover{
