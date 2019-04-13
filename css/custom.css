@@ -85,12 +85,6 @@ body {
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
 }
-<<<<<<< HEAD
-=======
-.card a:hover {
-    opacity: 0.6;
-}
->>>>>>> a68c7d9d4f72a88a55d53e62290665a264ef410c
 
 .col-centered{
     float: none;
@@ -172,11 +166,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-<<<<<<< HEAD
-  background-color: rgba(0,0,0,1.00);
-=======
-  background-color: white;
->>>>>>> a68c7d9d4f72a88a55d53e62290665a264ef410c
+  background-color: #000000;
 }
 
 .card-home:hover .overlay-home {
